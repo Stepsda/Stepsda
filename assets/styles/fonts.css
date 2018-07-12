@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Novecentosanswide-Bold';
+    src: url('../fonts/Novecentosanswide-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Novecentosanswide-Bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Novecentosanswide-Medium';
+    src: url('../fonts/Novecentosanswide-Medium-webfont.woff2') format('woff2'),
+         url('../fonts/Novecentosanswide-Medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Novecentosanswide-Book';
+    src: url('../fonts/Novecentosanswide-Book-webfont.woff2') format('woff2'),
+         url('../fonts/Novecentosanswide-Book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

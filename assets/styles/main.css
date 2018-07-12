@@ -1,0 +1,154 @@
+body, html {
+  height: 100%; }
+
+body {
+  background: #fff; }
+
+.main {
+  height: 100%;
+  position: relative; }
+
+.header {
+  padding: 40px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  box-sizing: border-box; }
+  .header .header__logo {
+    width: 169px;
+    height: 50px;
+    background: url("../images/steps_logo.png") no-repeat; }
+
+.container {
+  padding: 40px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box; }
+  .container .container__heading h2 {
+    font-family: "Novecentosanswide-Bold";
+    color: #201d1d;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin: 0;
+    letter-spacing: 6px; }
+  .container .container__subheading {
+    margin: 45px 0; }
+    .container .container__subheading p {
+      line-height: 1.5;
+      font-size: 15px;
+      font-family: "Montserrat";
+      margin: 0;
+      color: #201d1d; }
+  .container .container__contact_button button {
+    background: #fff47c;
+    font-family: "Novecentosanswide-Medium";
+    font-size: 13px;
+    color: #242424;
+    display: block;
+    border: 0;
+    text-transform: uppercase;
+    padding: 14px 25px 14px 56px;
+    position: relative;
+    cursor: pointer; }
+    .container .container__contact_button button:before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 17px;
+      height: 11px;
+      background: url("../images/icons/message_dark.png");
+      left: 30px;
+      top: 16px; }
+    .container .container__contact_button button:hover {
+      background: #fff260; }
+    .container .container__contact_button button:active, .container .container__contact_button button:focus {
+      outline: none; }
+
+.sidebar {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+.contact {
+  position: fixed;
+  flex-direction: column;
+  padding-bottom: 80px;
+  padding-top: 40px;
+  bottom: -100%;
+  align-items: center;
+  background: #222222;
+  width: 100%;
+  display: flex;
+  transition: 0.5s; }
+  .contact .contact__close {
+    width: 19px;
+    height: 19px;
+    display: block;
+    background: url("../images/icons/close_light.png");
+    cursor: pointer;
+    margin-bottom: 15px; }
+  .contact .contact_form {
+    width: 540px; }
+    .contact .contact_form .contact_form__field {
+      display: block;
+      width: 100%;
+      background: transparent;
+      border-radius: 4px;
+      box-sizing: border-box;
+      padding: 6px 12px;
+      border: 1px solid #424242;
+      margin: 20px 0;
+      color: #808080;
+      line-height: 1;
+      font-family: "Open Sans"; }
+      .contact .contact_form .contact_form__field::placeholder {
+        color: #4e4e4e; }
+    .contact .contact_form .contact_form__button {
+      background: #fbf07a;
+      font-family: "Novecentosanswide-Bold";
+      font-size: 13px;
+      color: #242424;
+      display: block;
+      width: 100%;
+      border: 0;
+      text-transform: uppercase;
+      padding: 14px 0;
+      position: relative;
+      margin-top: 20px;
+      cursor: pointer; }
+      .contact .contact_form .contact_form__button:hover {
+        background: #fff260; }
+      .contact .contact_form .contact_form__button:active, .contact .contact_form .contact_form__button:focus {
+        outline: none; }
+
+.contact--active {
+  bottom: 0; }
+
+.contact--inactive {
+  bottom: -100%; }
+
+.sidebar {
+  transform: rotate(90deg);
+  transform-origin: 100% 0;
+  margin-right: 20px;
+  margin-bottom: 20px; }
+  .sidebar .social .social__item {
+    float: left;
+    list-style-type: none; }
+    .sidebar .social .social__item a {
+      font-family: 'Novecentosanswide-Book';
+      color: #7b7b7b;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 13px;
+      margin-right: 20px;
+      letter-spacing: 2px; }
+      .sidebar .social .social__item a:hover {
+        color: #000; }
+    .sidebar .social .social__item:last-child a {
+      margin-right: 0; }
+
+/*# sourceMappingURL=main.css.map */

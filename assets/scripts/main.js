@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$('.container__contact_button').click(function(e){
+		e.preventDefault();
+		$('.contact').addClass('contact--active');
+		$('.contact').removeClass('contact--inactive');
+	});
+	$('.contact__close').click(function(){
+		$('.contact').addClass('contact--inactive');
+		$('.contact').removeClass('contact--active');
+	});
+});
