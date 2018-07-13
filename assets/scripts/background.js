@@ -27,8 +27,12 @@ function draw() {
 	}
 	stroke(255,255,255);
 	fill(255,255,255);
+	rect(windowWidth*0.35+1, windowHeight+21-rectsize, rectsize, rectsize, 15);
+	rect(windowWidth*0.35+1+rectsize-10, windowHeight+31-rectsize*2, rectsize, rectsize, 15);
+	rect(windowWidth*0.35+1+rectsize*2-20, windowHeight+41-rectsize*3, rectsize, rectsize, 15);
+	rect(windowWidth*0.35+1+rectsize*3-30, +windowHeight+51-rectsize*4, rectsize, rectsize, 15);
 	for (var i = 0; i <= 3; i++) {
-		rect(windowWidth*0.35+1+rectsize*i-i*10, windowHeight+21-rectsize*i, rectsize, rectsize, 15);
+		rect(windowWidth*0.35+1+rectsize*i-i*10, windowHeight+21+i*10-rectsize*i, rectsize, rectsize, 15);
 	}
 	strokeWeight(1);
 	for (var i = 0; i < hLines.length; i++) {
