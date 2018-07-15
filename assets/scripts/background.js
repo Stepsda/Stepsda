@@ -52,7 +52,6 @@ function vLine(x) {
 	this.x = x;
 	this.update = function() {
 		var current = Math.ceil((this.x - windowWidth*0.35) / rectsize);
-		console.log(this.x + " " + current);
 		for (var i = -3; i <= 3; i++) {
 			if (((windowWidth*0.35+rectsize*current-10*current+i) % (this.x) == 0)) {
 				strokeWeight(0);
